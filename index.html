@@ -2,7 +2,7 @@
 <html lang="de">
 	<head>
 		<meta charset="utf-8">
-
+		
 		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
 		Remove this if you use the .htaccess -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -12,8 +12,20 @@
 		<meta name="author" content="Stephen Beck, Markus Jäckle">
 
 		<meta name="viewport" content="width=device-width; initial-scale=1.0">
-
-		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		
+		<!-- eigene Stylesheeds -->
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+		<!-- CDN -->
+		<!-- Bootstrap.min.css -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<!-- Bootstrap.min.js -->
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+		<!-- font-awesome.min.css -->
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+		
+		<!-- favicon.ico & apple-touch-icon.png -->
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	</head>
@@ -21,8 +33,310 @@
 	<body>
 		<div id="wrapper">
 			
+			<!-- Header Breich Logos -->
+			
+			<header class="container">
+			
+				<div class="row navbar-inverse">
+					<div class="col-md-6">				
+						<img src="logo.png" />
+					</div>
+					<div class="col-md-6 navbar-inverse">
+						<img id="logo2" src="logo2.png" />
+					</div>
+				</div>
+				
+			<!-- Navbar Bereich -->
+				
+				<div class="row">
+					<nav class="navbar navrad navbar-inverse navbar-default">
+  						<div class="container-fluid">
+    					<!-- Brand and toggle get grouped for better mobile display -->
+    						<div class="navbar-header">
+      							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+       								<span class="icon-bar"></span>
+        							<span class="icon-bar"></span>
+        							<span class="icon-bar"></span>
+      							</button>
+      							<a class="navbar-brand" href="#">StudOverflow</a>
+    						</div>
+
+    						<!-- Collect the nav links, forms, and other content for toggling -->
+    						
+    						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      							<ul class="nav navbar-nav">
+        							<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        							<li><a href="#">Neu</a></li>
+        							<li class="dropdown">
+          								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Interessant <span class="caret"></span></a>
+          								<ul class="dropdown-menu">
+            								<li><a href="#">Mathematik</a></li>
+            								<li><a href="#">Programmieren</a></li>
+            								<li><a href="#">Something else here</a></li>
+            								<li role="separator" class="divider"></li>
+           	 								<li><a href="#">Separated link</a></li>
+            								<li role="separator" class="divider"></li>
+            								<li><a href="#">One more separated link</a></li>
+          								</ul>
+        							</li>
+      							</ul>
+      							
+      							<!-- Suche -->
+      							
+     							<form class="navbar-form navbar-left" role="search">
+       								<div class="form-group">
+          								<input type="search" class="form-control" placeholder="Stichwortsuche">
+        							</div>
+        							<button type="submit" class="btn btn-primary">Suchen</button>
+      							</form>
+      
+      							<!-- Login Bereich -->
+      
+      	   						<ul class="nav navbar-nav navbar-right">	
+        							<li><a id="modal_trigger" href="#modal">Login</a></li>		
+       							</ul>
+       							
+       							
+      							<!-- Nach dem Login -->
+      							
+      							<!-- toDo -->
+      							<!-- toDo -->
+								<!-- toDo -->
+								<!-- toDo -->
+								<!-- toDo -->
+								<!-- toDo -->
+								<!-- toDo -->
+								<!-- toDo -->
+
+   							</div><!-- /.navbar-collapse -->
+  						</div><!-- /.container-fluid -->
+					</nav>
+				</div>
+			</header> <!-- end of header -->
 			
 			
-		</div>
+			<!-- Start der Mainpage -->
+			
+			
+			<section class="container" id="info">
+				<div class="row">
+					<article class="col-md-12">
+						Jedes Semester stehen Studenten vor den gleichen Problemen.
+						Der eine hat Probleme mit dem Programmieren, der andere in Mathematik.
+						Vielleicht sind es auch nur allgemeine Fragen zum Studium, Studiengang oder Kurs.
+						Der Dozent wirft mit Fachbegriffen um sich oder erklärt etwas unnötig kompliziert?
+						In den Vorlesungen passiert es schnell, dass man nicht mehr mitkommt.
+						Unser Konzept basiert darauf, dass sich Studenten gegenseitig helfen.
+						Wir möchten den Studierenden eine Plattform schaffen, auf der ihre Fragen
+						rund um das Studium von Kommilitonen schnell und einfach beantwortet werden.
+					</article>
+				</div>	
+			</section>
+			
+			
+			<!-- Bild?? -->
+			<!-- Bild?? -->
+			<!-- Bild?? -->
+			<!-- Bild?? -->
+			<!-- Bild?? -->
+			<!-- Bild?? -->
+			<!-- Bild?? -->
+			<!-- Bild?? -->
+			<!-- Bild?? -->
+			
+			
+			<!-- Fragen Section -->
+			
+			<section class="container">
+				<article class="row">
+					<div class="col-md-12 questionheader">
+						<a href="#">Die Legendäre IF-Schleife</a>
+						von
+						<a href="#">Enes</a> am 04.04.2016
+					</div>
+					
+					<div class="col-md-12 question">
+						Hallo Zusammen, <br />
+						ich bin der Enes und Studieren Wirtschaftsinformatik. <br />
+						Leider hab ich das mit der IF-SCHLEIFE noch nicht ganz verstanden. <br />
+						Kann mir jemand helfen? <br />
+						
+					</div>
+					<div class="col-md-12 questionfooter">
+						<b>Antworten:</b> 2
+						&nbsp;&nbsp;&nbsp; 
+						<b>Aufrufe:</b> 13
+					</div>
+					
+					
+				</article>
+			</section>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				
+			<!-- Login popup container -->
+
+			<div class="container">
+
+				<div id="modal" class="popupContainer" style="display:none;">
+					<div class="popupHeader">
+						<span class="header_title">Login</span>
+						<span class="modal_close"><i class="fa fa-times"></i></span>
+					</div>
+
+					<section class="popupBody">
+						
+						<!-- Social Login -->
+						
+						<div class="social_login">
+							<div class="">
+								<a href="#" class="social_box fb"> <span class="icon"><i class="fa fa-facebook"></i></span> <span class="icon_title">Connect with Facebook</span> </a>
+
+								<a href="#" class="social_box google"> <span class="icon"><i class="fa fa-google-plus"></i></span> <span class="icon_title">Connect with Google</span> </a>
+							</div>
+
+							<div class="centeredText">
+								<span>Or use your Email address</span>
+							</div>
+
+							<div class="action_btns">
+								<div class="one_half">
+									<a href="#" id="login_form" class="btn">Login</a>
+								</div>
+								<div class="one_half last">
+									<a href="#" id="register_form" class="btn">Sign up</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Username & Password Login form -->
+						
+						<div class="user_login">
+							<form>
+								<label>Email / Username</label>
+								<input type="text" />
+								<br />
+
+								<label>Password</label>
+								<input type="password" />
+								<br />
+
+								<div class="checkbox">
+									<input id="remember" type="checkbox" />
+									<label for="remember">Remember me on this computer</label>
+								</div>
+
+								<div class="action_btns">
+									<div class="one_half">
+										<a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a>
+									</div>
+									<div class="one_half last">
+										<a href="#" class="btn btn_red">Login</a>
+									</div>
+								</div>
+							</form>
+
+							<a href="#" class="forgot_password">Forgot password?</a>
+						</div>
+
+						<!-- Register Form -->
+						
+						<div class="user_register">
+							<form>
+								<label>Full Name</label>
+								<input type="text" />
+								<br />
+
+								<label>Email Address</label>
+								<input type="email" />
+								<br />
+
+								<label>Password</label>
+								<input type="password" />
+								<br />
+
+								<div class="checkbox">
+									<input id="send_updates" type="checkbox" />
+									<label for="send_updates">Send me occasional email updates</label>
+								</div>
+
+								<div class="action_btns">
+									<div class="one_half">
+										<a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a>
+									</div>
+									<div class="one_half last">
+										<a href="#" class="btn btn_red">Register</a>
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<script type="text/javascript">
+				$("#modal_trigger").leanModal({
+					top : 200,
+					overlay : 0.6,
+					closeButton : ".modal_close"
+				});
+
+				$(function() {
+					// Calling Login Form
+					$("#login_form").click(function() {
+						$(".social_login").hide();
+						$(".user_login").show();
+						return false;
+					});
+
+					// Calling Register Form
+					$("#register_form").click(function() {
+						$(".social_login").hide();
+						$(".user_register").show();
+						$(".header_title").text('Register');
+						return false;
+					});
+
+					// Going back to Social Forms
+					$(".back_btn").click(function() {
+						$(".user_login").hide();
+						$(".user_register").hide();
+						$(".social_login").show();
+						$(".header_title").text('Login');
+						return false;
+					});
+				})
+			</script>
+
+
+		</div> <!-- Wrapper -->
 	</body>
 </html>
