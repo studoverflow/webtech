@@ -11,6 +11,18 @@ img {
  	height: auto;
 }
 
+footer {
+	border: 2px solid;
+	border-radius: 10px;
+	background-color: #222;
+    border-color: #080808;
+    color: #FFFFFF;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+
 
 /* ID */
 #wrapper {
@@ -51,6 +63,7 @@ img {
 
 .question {
 	color: #000000;
+	background-color: #D8D8D8;
 	border: 2px solid #080808;
 	padding: 10px;
 }
