@@ -1,7 +1,16 @@
 @charset "utf-8";
 
+
+
 /* Element */
+
+html {
+	background-color: black;
+}
+
 body {
+	background-image: url(../backgroundimg.jpg);
+	background-size: cover;
 	margin: 0;
 	padding: 0;	
 }
@@ -12,16 +21,34 @@ img {
 }
 
 footer {
-	border: 2px solid;
+	border: 1px solid;
 	border-radius: 10px;
-	background-color: #222;
+	background-color: #FFFFFF;
     border-color: #080808;
-    color: #FFFFFF;
+    color: black;
     padding: 5px;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 5px;
 }
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: black;
+}
+
 
 
 /* ID */
@@ -30,56 +57,66 @@ footer {
 }
 
 #info {
-	border: 2px solid;
-	border-radius: 10px;
-	background-color: #222;
-    border-color: #080808;
-    color: #FFFFFF;
+	border: 1px solid black;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: #FFFFFF;
+    color: black;
     padding: 10px;
     text-align: center;
 }
 
+#banner {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
 
 
 /* Class */
 
 .navrad {
-	border-top-left-radius: 0px !important;
-	border-top-right-radius: 0px !important;
+	border-top-right-radius: 10px !important;
+	border-top-left-radius: 10px !important;
+	border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	border: 1px solid black !important;
 }
 
 .questionheader {
 	margin-top: 10px;
 	font-weight: bold;
-	border-top: 2px solid;
-	border-left: 2px solid;
-	border-right: 2px solid;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	background-color: #222;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	background-color: #FFFFFF;
     border-color: #080808;
-    color: #FFFFFF;
+    color: black;
 }
 
 .question {
 	color: #000000;
-	background-color: #D8D8D8;
-	border: 2px solid #080808;
+	background-color: #F4F4F2;
+	border: 1px solid #080808;
 	padding: 10px;
 }
 
 .questionfooter {
-	border-bottom: 2px solid;
-	border-left: 2px solid;
-	border-right: 2px solid;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	background-color: #222;
+	border-bottom: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	background-color: #FFFFFF;
     border-color: #080808;
-    color: #FFFFFF;
+    color: black;
 }
 
-
+.margpaddzero {
+	margin: 0px !important;
+	padding: 0px !important;
+}
 
 
 

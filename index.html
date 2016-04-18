@@ -46,17 +46,19 @@
 		<div id="wrapper">
 			<!-- Header Breich Logos -->
 			<header class="container">
-				<div class="row navbar-inverse">
-					<div class="col-md-6">				
+				<div class="row">
+					<div class="col-md-6 margpaddzero">				
 						<img src="logo.png" />
 					</div>
-					<div class="col-md-6 navbar-inverse">
-						<img id="logo2" src="logo2.png" />
+					<div class="col-md-6">
+						<img src="logo2.png" />
 					</div>
 				</div>
+				
 			<!-- Navbar Bereich -->
+			
 				<div class="row">
-					<nav class="navbar navrad navbar-inverse navbar-default">
+					<nav class="navbar navrad navbar navbar-default margpaddzero">
   						<div class="container-fluid">
     					<!-- Brand and toggle get grouped for better mobile display -->
     						<div class="navbar-header">
@@ -113,9 +115,21 @@
 				</div>
 			</header> <!-- end of header -->
 			<!-- Start der Mainpage -->
-			<section class="container" id="info">
+			
+			<section class="container">
 				<div class="row">
-					<article class="col-md-12">
+					<div class="col-md-12 margpaddzero">
+						<img id="banner" src="banner.jpg">	
+					</div>
+				</div>
+				
+				
+				
+			</section>
+			
+			<section class="container" id="info">
+				<article class="row">
+					<div class="col-md-12">
 						Jedes Semester stehen Studenten vor den gleichen Problemen.
 						Der eine hat Probleme mit dem Programmieren, der andere in Mathematik.
 						Vielleicht sind es auch nur allgemeine Fragen zum Studium, Studiengang oder Kurs.
@@ -124,8 +138,8 @@
 						Unser Konzept basiert darauf, dass sich Studenten gegenseitig helfen.
 						Wir möchten den Studierenden eine Plattform schaffen, auf der ihre Fragen
 						rund um das Studium von Kommilitonen schnell und einfach beantwortet werden.
-					</article>
-				</div>	
+					</div>
+				</article>	
 			</section>
 			
 			<!-- Bild?? -->
@@ -140,6 +154,8 @@
 			
 			<!-- Fragen Section -->
 			<section class="container">
+				
+				
 				<article class="row">
 					<div class="col-md-12 questionheader">
 						<a href="#">Die Legendäre IF-Schleife</a>
@@ -160,9 +176,79 @@
 						<b>Aufrufe:</b> 13
 					</div>
 				</article>
-			</section>	
+				
+				
+				<article class="row">
+					<div class="col-md-12 questionheader">
+						<a href="#">Java Funktioniert bei mir nicht</a>
+						von
+						<a href="#">Winuser</a> am 04.04.2016
+					</div>
+					
+					<div class="col-md-12 question">
+						Hey <br />
+						hab mir gestern für die Vorlesungen Java auf meinen Laptop installiert. <br />
+						Irgendwie meint aber mein Programm das noch kein Java installiert sei. <br />
+						Hab ich irgendwas falsch gemacht.<br />
+						Oder stimmt irgen...
+						
+					</div>
+					<div class="col-md-12 questionfooter">
+						<b>Antworten:</b> 4
+						&nbsp;&nbsp;&nbsp; 
+						<b>Aufrufe:</b> 25
+					</div>
+				</article>
+				
+				
+				<article class="row">
+					<div class="col-md-12 questionheader">
+						<a href="#">Wieso funktioniert mein Code nicht?</a>
+						von
+						<a href="#">Basti</a> am 03.04.2016
+					</div>
+					
+					<div class="col-md-12 question">
+						Muss bis morgen diese Übung hier abgeben:
+						Schreiben Sie ein Programm, das eine Obergrenze einliest und anschließend alle <br />
+						ganzen Zahlen von 1 bis zur Obergrenze aufsummiert und ihren Durchschnitt bildet <br />
+						und Summe wie Durchschnitt ausgibt. Verwenden Sie dazu eine for-­Schleife. <br />
+						Hier mein Code...
+					</div>
+					<div class="col-md-12 questionfooter">
+						<b>Antworten:</b> 2
+						&nbsp;&nbsp;&nbsp; 
+						<b>Aufrufe:</b> 13
+					</div>
+				</article>
+				
+				<article class="row">
+					<div class="col-md-12 questionheader">
+						<a href="#">Lineares Gleichungssysem</a>
+						von
+						<a href="#">UserXY</a> am 02.04.2016
+					</div>
+					
+					<div class="col-md-12 question">
+						Es geht um folgendes: <br /> 
+						In einem linearen Gleichungssystem soll der Ausdruck x2 durch eine stückweise lineare Funktion <br />
+						über f-1 Intervalle zwischen 0 und z approximiert werden. Die Approximation an sich verstehe ich schon.<br />
+						Es werden zusätzliche Variablen (y1 bis yf) eingeführt, der Ausdruck x2 wird durch<br />
+						(z/(f-1))2 y2 + (2z/(f-1))2 *y3 + ... + z2 *yf in der Zielfunktion ersetzt....
+					</div>
+					<div class="col-md-12 questionfooter">
+						<b>Antworten:</b> 2
+						&nbsp;&nbsp;&nbsp; 
+						<b>Aufrufe:</b> 13
+					</div>
+				</article>
+				
+				
+			</section>
+			
+			
 			<!-- Footer Bereich -->
-			<footer class="container navbar-inverse">
+			<footer class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<a href="#">Impressum</a>  |  
@@ -188,17 +274,13 @@
 						<div class="social_login">
 							<div class="">
 								<a href="#" class="social_box fb"> 
-                                                                    <span class="icon">
-                                                                        <i class="fa fa-facebook"></i>
-                                                                    </span> 
-                                                                    <span class="icon_title">Connect with Facebook</span> 
-                                                                </a>
-								<a href="#" class="social_box google">
-                                                                    <span class="icon">
-                                                                        <i class="fa fa-google-plus"></i>
-                                                                    </span> 
-                                                                    <span class="icon_title">Connect with Google</span> 
-                                                                </a>
+                                 	<span class="icon"><i class="fa fa-facebook"></i></span> 
+                                 	<span class="icon_title">Connect with Facebook</span> 
+                                 </a>
+								 <a href="#" class="social_box google">
+                                	<span class="icon"> <i class="fa fa-google-plus"></i></span> 
+                                    <span class="icon_title">Connect with Google</span> 
+                                 </a>
 							</div>
 							<div class="centeredText">
 								<span>Or use your Email address</span>
@@ -230,8 +312,7 @@
 
 								<div class="action_btns">
 									<div class="one_half">
-										<a href="#" class="btn back_btn">
-                                                                                    <i class="fa fa-angle-double-left"></i> Backgoo/<a>
+										<a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Backgoo/<a>
 									</div>
 									<div class="one_half last">
 										<a href="#" class="btn btn_red">Login</a>
