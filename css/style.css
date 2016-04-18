@@ -51,6 +51,8 @@ a:active {
 
 
 
+
+
 /* ID */
 #wrapper {
 	
@@ -64,6 +66,7 @@ a:active {
     color: black;
     padding: 10px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #banner {
@@ -84,7 +87,6 @@ a:active {
 
 .questionheader {
 	margin-top: 10px;
-	font-weight: bold;
 	border-top: 1px solid;
 	border-left: 1px solid;
 	border-right: 1px solid;
@@ -111,6 +113,7 @@ a:active {
 	background-color: #FFFFFF;
     border-color: #080808;
     color: black;
+    margin-bottom: 10px;
 }
 
 .margpaddzero {
